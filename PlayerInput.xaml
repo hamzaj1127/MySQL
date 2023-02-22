@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MySQL.PlayerInput"
+             Title="PlayerInput">
+    <VerticalStackLayout>
+
+        <Entry
+  MaxLength="20"
+  Style="{StaticResource CommonEntryStyle}"
+  Text="First Name" />
+
+        <Entry
+  MaxLength="20"
+  Style="{StaticResource CommonEntryStyle}"
+  Text="Last Name" />
+        <Entry
+  MaxLength="20"
+  Style="{StaticResource CommonEntryStyle}"
+  Text="Phone Number" />
+        <Entry
+  MaxLength="20"
+  Style="{StaticResource CommonEntryStyle}"
+  Text="Discord ID" />
+        <Entry
+  MaxLength="20"
+  Style="{StaticResource CommonEntryStyle}"
+  Text="Esport Game" />
+
+ 
+        <Button x:Name="PlayerRecordBtn" Text="Add Player Records" />
+
+        <Button Text="Back" x:Name="BackButton" Clicked="BackButton_Clicked"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
