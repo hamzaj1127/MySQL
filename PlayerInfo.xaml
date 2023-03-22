@@ -10,8 +10,9 @@
         Title="Players">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
-                    <x:String></x:String>
-
+                    <x:String>Billy</x:String>
+                    <x:String>Bob</x:String>
+                    <x:String>Joe</x:String>
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
